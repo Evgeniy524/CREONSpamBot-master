@@ -1,4 +1,4 @@
-//node index.js --host <ip> --port <port> --username true --version 1.8.8 --speed 120
+//node index.js --host <ip> --port <port> --username true --version 1.16.5 --speed 120
 
 const mc = require('minecraft-protocol')
 const Http = require('http')
@@ -12,10 +12,10 @@ var argv = require('minimist')(process.argv.slice(2));
 var proxy_array = []
 var usernames = []
 
-const host = getCommandArgument("host", "127.0.0.1")
-const port = getCommandArgument("port", "25565")
+const host = getCommandArgument("host", "Blockkio.aternos.me")
+const port = getCommandArgument("port", "39652")
 const username = getCommandArgument("username", "true")
-const version_server = getCommandArgument("version", "1.8.8")
+const version_server = getCommandArgument("version", "1.16.5")
 const speedt = getCommandArgument("speed", "120")
 
 /**
